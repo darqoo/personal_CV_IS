@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url("../fonts/MyriadPro-Bold.otf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold-It";
+    src: url("../fonts/MyriadPro-BoldIt.otf");
+}
+
+@font-face {
+    font-family: "MyriadPro-It";
+    src: url("../fonts/MyriadPro-BoldIt.otf");
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0;
+    font-family: "MyriadPro-Regular";
+    font-size: 10px;
+    color: #c6c3cc;
+}
+
+[class *="col-"] {
+    border: 1px solid red;
+}
+
+.ds {
+    max-width: 125px;
+    margin: 12px 1px 0px 25px;
+    width: 25vw;
+}
+
+.skills_range {}
+
+.name_surname {
+    color: #ffe0ce;
+    font-size: 33px;
+}
+
+.fdev {
+    color: #c6c3cc;
+    font-size: 17px;
+}
+
+.my_description {
+    color: #c6c3cc;
+    font-size: 15px;
+    margin: 7px 13px 7px 13px;
+}
+
+.color_ffe0ce {
+    color: #ffe0ce;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: url("../images/1_makieta_mobile_small.jpg");
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url("../images/2_makieta_mobile.jpg");
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url("../images/3_makieta_tablet.jpg");
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-image: url("../images/4_makieta_desktop.jpg");
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url("../images/5_makieta_full.jpg");
+    }
+}
