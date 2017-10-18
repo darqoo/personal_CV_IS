@@ -1,3 +1,28 @@
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url("../fonts/MyriadPro-Bold.otf");
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold-It";
+    src: url("../fonts/MyriadPro-BoldIt.otf");
+}
+
+@font-face {
+    font-family: "MyriadPro-It";
+    src: url("../fonts/MyriadPro-BoldIt.otf");
+}
+
+@font-face {
+    font-family: "comic";
+    src: url("../fonts/comic.ttf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,8 +31,24 @@
     font-family: 'MyriadPro-Bold';
 }
 
+.italic_bold {
+    font-family: 'MyriadPro-Bold-It';
+}
+
+.comic {
+    font-family: "comic";
+}
+
 .center {
     text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 @media (max-width: 600px) {

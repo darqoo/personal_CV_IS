@@ -1,22 +1,6 @@
-@font-face {
-    font-family: "MyriadPro-Regular";
-    src: url("../fonts/MyriadPro-Regular.otf");
-}
-
-@font-face {
-    font-family: "MyriadPro-Bold";
-    src: url("../fonts/MyriadPro-Bold.otf");
-}
-
-@font-face {
-    font-family: "MyriadPro-Bold-It";
-    src: url("../fonts/MyriadPro-BoldIt.otf");
-}
-
-@font-face {
-    font-family: "MyriadPro-It";
-    src: url("../fonts/MyriadPro-BoldIt.otf");
-}
+/*[class *="col-"] {
+    border: 1px solid red;
+}*/
 
 body {
     background-repeat: no-repeat;
@@ -27,8 +11,12 @@ body {
     color: #c6c3cc;
 }
 
-[class *="col-"] {
-    border: 1px solid red;
+h3 {
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-bottom: 2px solid #594f46;
+    width: 80%;
 }
 
 .ds {
@@ -42,26 +30,100 @@ body {
 .name_surname {
     color: #ffe0ce;
     font-size: 33px;
+    margin-top: 28px;
 }
 
 .fdev {
     color: #c6c3cc;
     font-size: 17px;
+    margin-top: -22px;
 }
 
 .my_description {
     color: #c6c3cc;
     font-size: 15px;
-    margin: 7px 13px 7px 13px;
+    margin: 15px 10% 20px 10%;
 }
 
 .color_ffe0ce {
     color: #ffe0ce;
 }
 
+.contact_list {
+    font-size: 16px;
+    margin: 1px 0 24px -11px;
+    list-style: none;
+}
+
+.my_place {
+    font-size: 16px;
+}
+
+.my_place p {
+    margin: 15px 0 0 33px;
+}
+
+.find-me_list, .find-me_list a:hover, .find-me_list a:link, .find-me_list a:visited {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 19px 0 0 1.5%;
+    list-style: none;
+}
+
+.map {
+    display: none;
+}
+
+.years_text {
+    font-size: 16px;
+    min-height: 62px;
+    padding-top: 29px;
+}
+
+.years_number {
+    font-size: 50px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.edu_list {
+    font-size: 14px;
+    margin: 1px 0 24px -11px;
+    list-style: none;
+}
+
+.footer {
+    font-size: 16px;
+    margin-top: 57px;
+    height: 20px;
+}
+
+.footer_shadow {
+    color: #000;
+    box-shadow: 0 0 10px #fff;
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0px;
+    height: 2px;
+}
+
+.pos_rel {
+    position: relative;
+}
+
+.mrg {
+    margin-left: 10%;
+}
+
 @media (max-width: 600px) {
     body {
-        background-image: url("../images/1_makieta_mobile_small.jpg");
+        /*background-image: url("../images/1_makieta_mobile_small.jpg");*/
+        background-image: url("../images/bg_full.png");
+        background-color: #0f1925;
+        background-position: 0px 0px;
     }
 }
 
