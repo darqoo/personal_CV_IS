@@ -55,7 +55,6 @@
     .container {
         max-width: 599px;
         width: 100%;
-        position: relative;
     }
     .col-pm-1 {
         width: calc(100%/12);
@@ -111,7 +110,6 @@
     .container {
         max-width: 768px;
         width: 100%;
-        position: relative;
     }
     .col-lm-1 {
         width: calc(100%/12);
@@ -167,7 +165,6 @@
     .container {
         max-width: 992px;
         width: 100%;
-        position: relative;
     }
     .col-ts-1 {
         width: calc(100%/12);
@@ -223,7 +220,6 @@
     .container {
         max-width: 1200px;
         width: 100%;
-        position: relative;
     }
     .col-ds-1 {
         width: calc(100%/12);
@@ -279,7 +275,6 @@
     .container {
         max-width: 3840px;
         width: 100%;
-        position: relative;
     }
     .col-ws-1 {
         width: calc(100%/12);
