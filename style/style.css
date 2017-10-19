@@ -15,6 +15,7 @@ h3 {
     font-size: 18px;
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 15px;
     border-bottom: 2px solid #594f46;
     width: 80%;
 }
@@ -27,96 +28,96 @@ h3 {
 
 .skills_range {}
 
-.name_surname {
-    color: #ffe0ce;
-    font-size: 33px;
-    margin-top: 28px;
-}
+    .name_surname {
+        color: #ffe0ce;
+        font-size: 33px;
+        margin-top: 28px;
+    }
 
-.fdev {
-    color: #c6c3cc;
-    font-size: 17px;
-    margin-top: -22px;
-}
+    .fdev {
+        color: #c6c3cc;
+        font-size: 17px;
+        margin-top: -22px;
+    }
 
-.my_description {
-    color: #c6c3cc;
-    font-size: 15px;
-    margin: 15px 10% 20px 10%;
-}
+    .my_description {
+        color: #c6c3cc;
+        font-size: 15px;
+        margin: 15px 10% 20px 10%;
+    }
 
-.color_ffe0ce {
-    color: #ffe0ce;
-}
+    .color_ffe0ce {
+        color: #ffe0ce;
+    }
 
-.contact_list {
-    font-size: 16px;
-    margin: 1px 0 24px -11px;
-    list-style: none;
-}
+    .contact_list {
+        font-size: 16px;
+        margin: 1px 0 24px -11px;
+        list-style: none;
+    }
 
-.my_place {
-    font-size: 16px;
-}
+    .my_place {
+        font-size: 16px;
+    }
 
-.my_place p {
-    margin: 15px 0 0 33px;
-}
+    .my_place p {
+        margin: 15px 0 0 33px;
+    }
 
-.find-me_list, .find-me_list a:hover, .find-me_list a:link, .find-me_list a:visited {
-    color: inherit;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 19px 0 0 1.5%;
-    list-style: none;
-}
+    .find-me_list, .find-me_list a:hover, .find-me_list a:link, .find-me_list a:visited {
+        color: inherit;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 19px 0 0 1.5%;
+        list-style: none;
+    }
 
-.map {
-    display: none;
-}
+    .map {
+        display: none;
+    }
 
-.years_text {
-    font-size: 16px;
-    min-height: 62px;
-    padding-top: 29px;
-}
+    .years_text {
+        font-size: 16px;
+        min-height: 62px;
+        padding-top: 29px;
+    }
 
-.years_number {
-    font-size: 50px;
-    text-align: right;
-    margin-top: 20px;
-}
+    .years_number {
+        font-size: 50px;
+        text-align: right;
+        margin-top: 20px;
+    }
 
-.edu_list {
-    font-size: 14px;
-    margin: 1px 0 24px -11px;
-    list-style: none;
-}
+    .edu_list {
+        font-size: 14px;
+        margin: 1px 0 24px -11px;
+        list-style: none;
+    }
 
-.footer {
-    font-size: 16px;
-    margin-top: 57px;
-    height: 20px;
-}
+    .footer {
+        font-size: 16px;
+        margin-top: 57px;
+        height: 20px;
+    }
 
-.footer_shadow {
-    color: #000;
-    box-shadow: 0 0 10px #fff;
-    width: 85%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: 0px;
-    height: 2px;
-}
+    .footer_shadow {
+        color: #000;
+        box-shadow: 0 0 10px #fff;
+        width: 85%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: 0px;
+        height: 2px;
+    }
 
-.pos_rel {
-    position: relative;
-}
+    .pos_rel {
+        position: relative;
+    }
 
-.mrg {
-    margin-left: 10%;
-}
+    .mrg {
+        margin-left: 10%;
+    }
 
 @media (max-width: 600px) {
     body {
@@ -125,11 +126,15 @@ h3 {
         background-color: #0f1925;
         background-position: 0px 0px;
     }
+
 }
 
 @media (min-width: 600px) {
     body {
-        background-image: url("../images/2_makieta_mobile.jpg");
+        /*background-image: url("../images/2_makieta_mobile.jpg");*/
+        background-image: url("../images/bg_full.png");
+        background-color: #0f1925;
+        background-position: 0px 0px;
     }
 }
 
