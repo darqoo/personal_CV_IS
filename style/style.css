@@ -22,6 +22,10 @@ body {
     position: relative;
 }
 
+.container {
+    min-height: calc(100% - 30px);
+}
+
 h3 {
     font-size: 18px;
     margin: 0 auto;
@@ -157,16 +161,11 @@ h3 {
     }
 
     .footer_position {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translate(-50%, 0);
-        width: 85%;
+        position: relative;
     }
 
     .footer {
         font-size: 16px;
-        margin-top: 57px;
         height: 20px;
     }
 
