@@ -1,6 +1,14 @@
-// $(function(){
-//   var body = document.body;
-//   var html = document.documentElement;
-//   var bodyH = Math.max(body.scrollHeight, body.offsetHeight, body.getBoundingClientRect().height, html.clientHeight, html.scrollHeight, html.offsetHeight);
-//   $('body').css('height', bodyH);
-// });
+(function() {
+    var look = document.getElementById('look');
+    var map = document.getElementById('map');
+    look.addEventListener("click", function() {
+        if (map.style.display == "inline-block") {
+            map.style.display = "none";
+        } else {
+            map.style.display = "inline-block"
+        }
+    });
+
+
+
+})();

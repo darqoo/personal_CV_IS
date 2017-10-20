@@ -1,20 +1,13 @@
-/*[class *="col-"] {
-    border: 1px solid red;
-}*/
-
-html {
+html, body {
     width: 100%;
     height: 100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-}
-
-body {
+    background-image: url("../images/bg_full.png");
+    background-color: #0f1925;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
-    background-position: top center;
     margin: 0;
     font-family: "MyriadPro-Regular";
     font-size: 10px;
@@ -23,7 +16,7 @@ body {
 }
 
 .container {
-    min-height: calc(100% - 30px);
+    min-height: 100%;
 }
 
 h3 {
@@ -59,10 +52,6 @@ h3 {
     color: #c6c3cc;
     font-size: 15px;
     margin: 15px 10% 20px 10%;
-}
-
-.color_ffe0ce {
-    color: #ffe0ce;
 }
 
 .contact_list {
@@ -101,110 +90,93 @@ h3 {
     list-style: none;
 }
 
-
-
 .mrg {
     margin-left: 10%;
 }
 
+.my_place p {
+    margin: 15px 0 0 33px;
+}
+
+.footer_position {
+    position: relative;
+}
+
+.footer {
+    font-size: 16px;
+    margin-top: 40px;
+    height: 20px;
+}
+
+.footer_shadow {
+    color: #000;
+    box-shadow: 0 0 10px #fff;
+    width: 85%;
+    height: 2px;
+}
+
+#look {
+    cursor: pointer;
+}
+
+#map {
+    text-align: center;
+    margin-top: 25px;
+}
+
 @media (max-width: 600px) {
-    body {
-        /*background-image: url("../images/1_makieta_mobile_small.jpg");*/
-        background-image: url("../images/bg_full.png");
-        background-color: #0f1925;
-        background-position: 0px 0px;
+    .ds_description {
+        display: none;
     }
     .my_place p {
-        margin: 15px 0 0 33px;
         display: inline;
     }
-    .map {
+    #map {
         display: none;
     }
     .footer_position {
-        position: relative;
         text-align: center;
     }
-
-    .footer {
-        font-size: 16px;
-        margin-top: 40px;
-        height: 20px;
-    }
-
     .footer_shadow {
-        color: #000;
-        box-shadow: 0 0 10px #fff;
-        width: 85%;
-        height: 2px;
         display: inline-block;
     }
 }
 
 @media (min-width: 600px) {
-    body {
-        /*background-image: url("../images/2_makieta_mobile.jpg");*/
-        background-image: url("../images/bg_full.png");
-        background-color: #0f1925;
-        background-position: 0px 0px;
-    }
-    .my_place p {
-        margin: 15px 0 0 33px;
+    .ds_description {
         display: none;
     }
-    .map {
+    .my_place p {
+        display: none;
+    }
+    #map {
         display: block;
         text-align: center;
     }
     .map img {
         max-width: 163px;
     }
-
-    .footer_position {
-        position: relative;
-    }
-
-    .footer {
-        font-size: 16px;
-        margin-top: 30px;
-        height: 20px;
-    }
-
     .footer_shadow {
-        color: #000;
-        box-shadow: 0 0 10px #fff;
-        width: 85%;
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0);
         bottom: 0px;
-        height: 2px;
     }
 }
 
 @media (min-width: 768px) {
-    body {
-        /*background-image: url("../images/3_makieta_tablet.jpg");*/
-        background-image: url("../images/bg_full.png");
-        background-color: #0f1925;
-        background-position: 0px 0px;
+    .ds_description {
+        display: none;
     }
 }
 
 @media (min-width: 992px) {
-    body {
-        /*background-image: url("../images/4_makieta_desktop.jpg");*/
-        background-image: url("../images/bg_full.png");
-        background-color: #0f1925;
-        background-position: 0px 0px;
+    .description {
+        visibility: hidden;
+    }
+    .ds_description {
+        display: inline-block;
     }
 }
 
-@media (min-width: 1200px) {
-    body {
-        /*background-image: url("../images/5_makieta_full.jpg");*/
-        background-image: url("../images/bg_full.png");
-        background-color: #0f1925;
-        background-position: 0px 0px;
-    }
-}
+@media (min-width: 1200px) {}
