@@ -1,7 +1,7 @@
 ## Dariusz Smoląg
 
-This is my personal CV
+This is my personal identity
 
 ### First step
 
-[Link to CV](https://darqoo.github.io/personal_CV_IS/index.html)
+[darqoo](http://www.darqoo.pl)
