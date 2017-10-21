@@ -123,6 +123,14 @@ h3 {
     margin-top: 25px;
 }
 
+.ds-pos {
+    position: absolute;
+    width: 38vw;
+    height: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
 @media (max-width: 600px) {
     .ds_description {
         display: none;
@@ -146,7 +154,7 @@ h3 {
 
 @media (min-width: 600px) {
     .pro_ex {
-    margin-top: 35%;
+        margin-top: 35%;
     }
     .ds_description {
         display: none;
